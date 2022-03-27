@@ -1,0 +1,117 @@
+body{
+    background: url(animaux.jpg) no-repeat center/cover fixed;
+    height: 100vh;
+    color: rgb(247, 239, 229);
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 4px rgba(255, 255, 255, 0.404);
+}
+#description{
+    text-align: center;
+    font-size: 800;
+    font-style: italic;
+    font-size: larger;
+    width: 80%;
+    margin: 0 auto;
+}
+hr{
+    width: 40%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    box-shadow: 3px 3px 8px 0px rgba(252, 252, 252, 0.47);
+}
+#description{
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+}
+.dogsorcats{
+    background-color: rgba(0, 0, 0, 0.473);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: solid;
+    margin: 20px;
+    box-shadow:11px 11px 24px 13px rgba(0,0,0,0.58);
+}
+.height{
+    background-color: rgba(0, 0, 0, 0.473);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: solid;
+    margin: 60px 20px;
+    box-shadow:11px 11px 24px 13px rgba(0,0,0,0.58);
+}
+.color{
+    background-color: rgba(0, 0, 0, 0.473);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: solid;
+    margin: 20px; 
+    margin-bottom: 70px;
+    box-shadow:11px 11px 24px 13px rgba(0,0,0,0.58);
+}
+.height input{
+    width: 20px;
+    transition: 1.3s;
+    color: black;
+}
+#dropdown{
+    background-color: rgba(0, 0, 0, 0.363);
+    color: aliceblue;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.274);
+    border-color: black;
+    border-radius: 20%;
+    margin-right: 200px;
+    padding: 0 20px;
+}
+.informations{
+    background-color: rgba(0, 0, 0, 0.473);
+    margin: 50px auto;
+    width: 30%;
+    border: solid;
+    display: grid;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:11px 11px 24px 13px rgba(0,0,0,0.58);
+}
+.textarea{
+    background-color: rgba(0, 0, 0, 0.473);
+    margin: 50px auto;
+    width: 50%;
+    border: solid;
+    display: grid;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:11px 11px 24px 13px rgba(0,0,0,0.58); 
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+.informations input, label{
+    max-width: 15em;
+    margin: 10px auto;
+}
+.height input:hover{
+    transform: scale(1.8);
+}
+#submit{
+    width: 30%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 12px;
+    display: flex;
+    margin: 20px auto;
+}

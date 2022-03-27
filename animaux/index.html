@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>The animaux que you prefer</title>
+</head>
+<body>
+    <h1 id="title">The animaux<hr></h1>
+      <p id="description">On va se faire un petit form pour voir les animaux que vous préférez.</p>
+
+    <form id="survey-form">
+
+        <div class="dogsorcats">
+            <p>Déjà, plutôt chats ou chiens?</p>
+            <select id="dropdown" name="dogsorcats" id="dogsorcats">
+                <option value="dogs">Chiens</option>
+                <option value="cats">Chats</option>
+            </select>
+        </div>
+
+        <div class="height">
+            <p>Ensuite, vous les préférez petits ou gros?</p>
+            <label for="little">Petits</label>
+            <input type="radio" id="little" name="height" value="little">
+            <label for="big">Gros</label>
+            <input type="radio" id="big" name="height" value="big">
+        </div>
+
+        <div class="color">
+            <p>Et la couleur?</p>
+            <label for="white">Blanc</label>
+            <input type="checkbox" id="white" name="white" value="white">
+            <label for="fire">Feu</label>
+            <input type="checkbox" id="fire" name="fire" value="fire">
+            <label for="black">Noir</label>
+            <input type="checkbox" id="black" name="black" value="black">
+        </div>
+
+        <hr>
+        <p id="description">Rentrez vos informations pour compléter le formulaire.</p>
+        <div class="informations">
+            <label id="name-label" for="name">Entrez votre nom: </label>
+            <input type="text" id="name" name="name" placeholder="Nom" required>
+        
+            <label id="email-label" for="email">Entrez votre e-mail: </label>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+        
+            <label id="number-label" for="number">Entrez votre âge: </label>
+            <input type="number" id="number" name="age" min="1" max="110" placeholder="Âge">
+        </div>
+
+        <div class="textarea">
+            <label for="textarea" name="textarea">Si vous souhaitez rajouter quelque chose..: </label>
+            <textarea id="textarea" name="textarea">Un nombre de pattes préféré, une voix plus douce ou plus aggressive..</textarea>
+        </div>
+
+        <input type="submit" name="submit" id="submit">
+
+    </form>
+</body>
+</html>
